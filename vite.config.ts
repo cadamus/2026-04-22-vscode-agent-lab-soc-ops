@@ -7,6 +7,12 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   // Auto-detect base path from environment (GitHub Actions sets VITE_REPO_NAME)
   base: process.env.VITE_REPO_NAME ? `/${process.env.VITE_REPO_NAME}/game/` : '/',
+  server: {
+    // Required in containers so VS Code preview can reach Vite via forwarded ports.
+    host: true,
+    port: 5173,
+    strictPort: true,
+  },
   test: {
     globals: true,
     environment: 'jsdom',
