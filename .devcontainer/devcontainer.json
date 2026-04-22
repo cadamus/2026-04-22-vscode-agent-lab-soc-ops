@@ -1,12 +1,13 @@
 {
-  "name": "Bingo Mixer React TypeScript",
+  "name": "2026-04-22-vscode-agent-lab-soc-ops",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
   "customizations": {
     "vscode": {
       "extensions": [
         "vitest.explorer",
         "dbaeumer.vscode-eslint",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "vscodevim.vim"
       ]
     },
     "codespaces": {
@@ -23,5 +24,9 @@
       "label": "Vite Dev Server",
       "onAutoForward": "openPreview"
     }
-  }
+  },
+  "mounts": [
+	  "source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,readonly",
+	  "source=${localEnv:HOME}/.config/git,target=/home/node/.config/git,type=bind,readonly"
+  ]
 }
