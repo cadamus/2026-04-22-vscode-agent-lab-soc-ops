@@ -9,13 +9,13 @@
 
 ## 📚 Lab Parts
 
-| Part | Title |
-|------|-------|
-| [**00**](00-overview.md) | Overview & Checklist |
-| [**01**](01-setup.md) | Setup & Context Engineering |
-| [**02**](02-design.md) | Design-First Frontend |
-| [**03**](03-quiz-master.md) | Custom Quiz Master |
-| [**04**](04-multi-agent.md) | Multi-Agent Development |
+| Part                        | Title                       |
+|-----------------------------|-----------------------------|
+| [**00**](00-overview.md)    | Overview & Checklist        |
+| [**01**](01-setup.md)       | Setup & Context Engineering |
+| [**02**](02-design.md)      | Design-First Frontend       |
+| [**03**](03-quiz-master.md) | Custom Quiz Master          |
+| [**04**](04-multi-agent.md) | Multi-Agent Development     |
 
 ---
 

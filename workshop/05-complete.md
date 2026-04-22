@@ -23,12 +23,12 @@ You've completed the **VS Code GitHub Copilot Agent Lab**!
 
 ## 🧠 What You Learned
 
-| Skill | Description |
-|-------|-------------|
-| **Context Engineering** | Onboarding AI to your codebase with instructions |
-| **Agentic Primitives** | Background agents, cloud agents, and custom workflows |
-| **Design-First Development** | UI iteration with AI assistance |
-| **Test-Driven Development** | Reliable code with TDD agents |
+| Skill                        | Description                                           |
+|------------------------------|-------------------------------------------------------|
+| **Context Engineering**      | Onboarding AI to your codebase with instructions      |
+| **Agentic Primitives**       | Background agents, cloud agents, and custom workflows |
+| **Design-First Development** | UI iteration with AI assistance                       |
+| **Test-Driven Development**  | Reliable code with TDD agents                         |
 
 ---
 
