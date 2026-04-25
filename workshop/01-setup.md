@@ -4,9 +4,15 @@
 
 ---
 
-In this section, you'll set up your development environment and teach GitHub Copilot about your codebase.
+## Mandatory Development Checklist
 
-> 🎮 **[Play the Bingo Mixer game](../game/)** — See what you'll be building!
+- [ ] `npm run lint`
+- [ ] `npm run build`
+- [ ] `npm run test`
+
+> Complete all three before moving to the next workshop part.
+
+In this section, you'll set up your development environment and teach GitHub Copilot about your codebase.
 
 ---
 
@@ -51,17 +57,13 @@ In the Chat panel:
 
 On the first terminal tool, enable *Auto*-*Approve*.
 
-Let the agent figure out any required installation steps.
-
-✅ **Success:** App is running and open in browser!
-
-Keep this `workshop/` guide open (📌 Pin).
+Expected outcome: dependencies installed, checks passing, and app running in browser preview.
 
 ---
 
 ## 📚 Understanding Context Engineering
 
-Context engineering is how you teach AI about your specific codebase. This makes Copilot's suggestions more accurate and relevant.
+Context engineering teaches Copilot your project conventions so responses are faster and more accurate.
 
 ### Task 1: Auto-generated Instructions
 
@@ -76,7 +78,7 @@ Instructions guide all agentic codebase interactions, making them more efficient
    1. Optional follow-up: *"Compress down and add a mandatory development [ ] checklist (lint, build, test) to the top"*
 4. Apply and commit
 
-✅ **Result:** All future requests will have a basic map of the workspace.
+Result: future prompts include a reliable project map.
 
 ---
 
@@ -113,6 +115,6 @@ Tour the repo customizations to understand how context engineering works in prac
 You've learned how to:
 - Set up your development environment
 - Generate and refine workspace instructions
-- Dogfood your app with the agent's built-in browser
+- Dogfood your app with the built-in browser
 - Create and save custom skills
 - Tour repo customizations (instructions, skills, agents)
