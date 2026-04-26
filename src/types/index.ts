@@ -14,3 +14,7 @@ export interface BingoLine {
 }
 
 export type GameState = 'start' | 'playing' | 'bingo';
+
+/** Theme types */
+export type ColorMode = 'light' | 'dark' | 'system';
+export type ThemeName = 'default' | 'cyberpunk' | 'pixel-arcade';
