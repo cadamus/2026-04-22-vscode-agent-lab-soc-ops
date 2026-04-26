@@ -1,5 +1,6 @@
 import type { BingoSquareData } from '../types';
 import { BingoBoard } from './BingoBoard';
+import { ThemeControls } from './ThemeControls';
 
 interface GameScreenProps {
   board: BingoSquareData[];
@@ -27,7 +28,7 @@ export function GameScreen({
           ← Back
         </button>
         <h1 className="font-bold text-primary">Bingo Mixer</h1>
-        <div className="w-16"></div>
+        <ThemeControls />
       </header>
 
       {/* Instructions */}
