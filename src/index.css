@@ -1,11 +1,121 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Press+Start+2P&display=swap");
+@import "tailwindcss";
 
-@theme {
-  --color-accent: #2563eb;
-  --color-accent-light: #3b82f6;
-  --color-marked: #dcfce7;
-  --color-marked-border: #22c55e;
-  --color-bingo: #fbbf24;
+/* Tailwind v4 runtime token bridge:
+   @theme inline keeps variable references intact so :root / .dark /
+   [data-theme] overrides resolve at runtime, not build time. */
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-line: var(--line);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-marked: var(--marked);
+  --color-marked-border: var(--marked-border);
+  --color-marked-fg: var(--marked-fg);
+  --color-winning: var(--winning);
+  --color-winning-border: var(--winning-border);
+  --color-winning-fg: var(--winning-fg);
+  --color-bingo: var(--bingo);
+  --color-bingo-fg: var(--bingo-fg);
+}
+
+/* Light theme (default) */
+:root {
+  --canvas: #f9fafb;
+  --surface: #ffffff;
+  --surface-hover: #f3f4f6;
+  --line: #e5e7eb;
+  --primary: #111827;
+  --secondary: #4b5563;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --marked: #dcfce7;
+  --marked-border: #22c55e;
+  --marked-fg: #166534;
+  --winning: #fef3c7;
+  --winning-border: #fbbf24;
+  --winning-fg: #92400e;
+  --bingo: #fef3c7;
+  --bingo-fg: #92400e;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* Dark theme */
+.dark {
+  --canvas: #0f172a;
+  --surface: #1e293b;
+  --surface-hover: #334155;
+  --line: #334155;
+  --primary: #f1f5f9;
+  --secondary: #94a3b8;
+  --muted: #64748b;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+  --marked: #14532d;
+  --marked-border: #16a34a;
+  --marked-fg: #bbf7d0;
+  --winning: #451a03;
+  --winning-border: #d97706;
+  --winning-fg: #fef3c7;
+  --bingo: #451a03;
+  --bingo-fg: #fef3c7;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* Cyberpunk Neon theme */
+[data-theme="cyberpunk"] {
+  --canvas: #0a0a12;
+  --surface: #12121e;
+  --surface-hover: #1e1e32;
+  --line: #ff00cc33;
+  --primary: #e0d0ff;
+  --secondary: #a090cc;
+  --muted: #6060aa;
+  --accent: #ff00cc;
+  --accent-light: #ff44dd;
+  --marked: #001a0a;
+  --marked-border: #00ff88;
+  --marked-fg: #00ff88;
+  --winning: #1a0020;
+  --winning-border: #ff00ff;
+  --winning-fg: #ff88ff;
+  --bingo: #1a0020;
+  --bingo-fg: #ff00ff;
+  --theme-font: "Share Tech Mono", monospace;
+}
+
+/* Pixel Arcade Style theme */
+[data-theme="pixel-arcade"] {
+  --canvas: #000080;
+  --surface: #0000aa;
+  --surface-hover: #0000cc;
+  --line: #ffff00;
+  --primary: #ffffff;
+  --secondary: #ffff88;
+  --muted: #aaaaff;
+  --accent: #ff4444;
+  --accent-light: #ff6666;
+  --marked: #005500;
+  --marked-border: #00ff00;
+  --marked-fg: #00ff00;
+  --winning: #550000;
+  --winning-border: #ff8800;
+  --winning-fg: #ffff00;
+  --bingo: #550000;
+  --bingo-fg: #ffff00;
+  --theme-font: "Press Start 2P", monospace;
+}
+
+@layer utilities {
+  .pixel-border {
+    box-shadow: -2px 0 0 0 var(--line), 2px 0 0 0 var(--line), 0 -2px 0 0 var(--line), 0 2px 0 0 var(--line);
+  }
 }
 
 html,
@@ -16,6 +126,6 @@ body,
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--theme-font, system-ui, -apple-system, sans-serif);
   -webkit-tap-highlight-color: transparent;
 }
