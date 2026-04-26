@@ -9,13 +9,15 @@
 
 ## 📚 Lab Parts
 
-| Part                        | Title                       |
-|-----------------------------|-----------------------------|
-| [**00**](00-overview.md)    | Overview & Checklist        |
-| [**01**](01-setup.md)       | Setup & Context Engineering |
-| [**02**](02-design.md)      | Design-First Frontend       |
-| [**03**](03-quiz-master.md) | Custom Quiz Master          |
-| [**04**](04-multi-agent.md) | Multi-Agent Development     |
+| Part                                             | Title                            |
+|--------------------------------------------------|----------------------------------|
+| [**00**](00-overview.md)                         | Overview & Checklist             |
+| [**01**](01-setup.md)                            | Setup & Context Engineering      |
+| [**02**](02-design.md)                           | Design-First Frontend            |
+| [**03**](03-quiz-master.md)                      | Custom Quiz Master               |
+| [**04**](04-multi-agent.md)                      | Multi-Agent Development          |
+| [**05**](05-complete.md)                         | Complete & Publish               |
+| [**06**](06-follow-on-implementation-backlog.md) | Follow-on Implementation Backlog |
 
 ---
 
@@ -62,6 +64,11 @@
 - [ ] Scavenger Hunt mode (TDD Red → Green → Refactor)
 - [ ] Card Deck Shuffle mode (Pixel Jam)
 - [ ] UX Review
+
+### Added Customizations
+- [ ] Try dogfooding modes prompt: [dogfooding-modes.prompt.md](../.github/prompts/dogfooding-modes.prompt.md)
+- [ ] Use UI critique skill: [ui-review/SKILL.md](../.github/skills/ui-review/SKILL.md)
+- [ ] Run release smoke checklist: [release-readiness.instructions.md](../.github/instructions/release-readiness.instructions.md)
 
 ---
 
