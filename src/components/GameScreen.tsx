@@ -23,7 +23,7 @@ export function GameScreen({
       <header className="flex items-center justify-between p-3 bg-surface border-b border-line">
         <button
           onClick={onReset}
-          className="text-muted text-sm px-3 py-1.5 rounded active:bg-surface-hover"
+          className="text-muted text-sm px-3 min-h-[44px] rounded active:bg-surface-hover"
         >
           ← Back
         </button>

@@ -68,30 +68,73 @@
   --theme-font: system-ui, -apple-system, sans-serif;
 }
 
-/* Cyberpunk Neon theme */
+/* Cyberpunk Neon theme: light variant */
 [data-theme="cyberpunk"] {
+  --canvas: #fff4fb;
+  --surface: #ffffff;
+  --surface-hover: #ffe6f5;
+  --line: #f5b4df;
+  --primary: #2f1233;
+  --secondary: #71376f;
+  --muted: #9a68a1;
+  --accent: #ff00a8;
+  --accent-light: #ff4fc6;
+  --marked: #d5fff0;
+  --marked-border: #00c97f;
+  --marked-fg: #06694b;
+  --winning: #ffe1fb;
+  --winning-border: #ff4fc6;
+  --winning-fg: #7b146f;
+  --bingo: #ffe1fb;
+  --bingo-fg: #7b146f;
+  --theme-font: "Share Tech Mono", monospace;
+}
+
+/* Cyberpunk Neon theme: dark variant */
+.dark[data-theme="cyberpunk"] {
   --canvas: #0a0a12;
   --surface: #12121e;
   --surface-hover: #1e1e32;
   --line: #ff00cc33;
-  --primary: #e0d0ff;
-  --secondary: #a090cc;
-  --muted: #6060aa;
+  --primary: #f3dcff;
+  --secondary: #cba3df;
+  --muted: #8e7bb6;
   --accent: #ff00cc;
   --accent-light: #ff44dd;
   --marked: #001a0a;
   --marked-border: #00ff88;
-  --marked-fg: #00ff88;
+  --marked-fg: #5cffb6;
   --winning: #1a0020;
   --winning-border: #ff00ff;
   --winning-fg: #ff88ff;
   --bingo: #1a0020;
   --bingo-fg: #ff00ff;
-  --theme-font: "Share Tech Mono", monospace;
 }
 
-/* Pixel Arcade Style theme */
+/* Pixel Arcade Style theme: light variant */
 [data-theme="pixel-arcade"] {
+  --canvas: #fff7d6;
+  --surface: #fffef2;
+  --surface-hover: #fff1a6;
+  --line: #2636a6;
+  --primary: #1f2673;
+  --secondary: #574db8;
+  --muted: #7b72d3;
+  --accent: #e53935;
+  --accent-light: #ff6f61;
+  --marked: #dbffd6;
+  --marked-border: #11a83a;
+  --marked-fg: #106421;
+  --winning: #ffe2a8;
+  --winning-border: #ff8f00;
+  --winning-fg: #763a00;
+  --bingo: #ffe2a8;
+  --bingo-fg: #763a00;
+  --theme-font: "Press Start 2P", monospace;
+}
+
+/* Pixel Arcade Style theme: dark variant */
+.dark[data-theme="pixel-arcade"] {
   --canvas: #000080;
   --surface: #0000aa;
   --surface-hover: #0000cc;
@@ -109,11 +152,10 @@
   --winning-fg: #ffff00;
   --bingo: #550000;
   --bingo-fg: #ffff00;
-  --theme-font: "Press Start 2P", monospace;
 }
 
 @layer utilities {
-  .pixel-border {
+  [data-theme="pixel-arcade"] .pixel-border {
     box-shadow: -2px 0 0 0 var(--line), 2px 0 0 0 var(--line), 0 -2px 0 0 var(--line), 0 2px 0 0 var(--line);
   }
 }

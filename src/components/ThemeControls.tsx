@@ -48,18 +48,13 @@ const THEMES: { value: ThemeName; icon: string; label: string }[] = [
 export function ThemeControls() {
   const { colorMode, theme, setColorMode, setTheme } = useTheme();
 
-  const isSpecialtyTheme = theme !== 'default';
-
   return (
     <div className="flex items-center gap-1.5" data-testid="theme-controls">
       {/* Light / Dark / System toggle */}
       <div
         role="group"
         aria-label="Color mode"
-        className={`flex items-center rounded-full border border-line bg-canvas p-0.5 transition-opacity ${
-          isSpecialtyTheme ? 'opacity-40 pointer-events-none' : ''
-        }`}
-        title={isSpecialtyTheme ? 'This theme includes its own color scheme' : undefined}
+        className="flex items-center rounded-full border border-line bg-canvas p-0.5"
       >
         {MODES.map(({ value, label, icon }) => (
           <button
@@ -67,7 +62,7 @@ export function ThemeControls() {
             onClick={() => setColorMode(value)}
             aria-pressed={colorMode === value}
             aria-label={label}
-            className={`flex items-center justify-center w-7 h-7 rounded-full transition-colors ${
+            className={`flex items-center justify-center w-11 h-11 rounded-full transition-colors ${
               colorMode === value
                 ? 'bg-accent text-white'
                 : 'text-muted hover:text-secondary'
@@ -90,7 +85,7 @@ export function ThemeControls() {
             onClick={() => setTheme(value)}
             aria-pressed={theme === value}
             aria-label={label}
-            className={`flex items-center justify-center w-7 h-7 rounded-full text-xs transition-colors ${
+            className={`flex items-center justify-center w-11 h-11 rounded-full text-xs transition-colors ${
               theme === value
                 ? 'bg-accent text-white'
                 : 'text-muted hover:text-secondary'

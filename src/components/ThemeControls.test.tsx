@@ -98,6 +98,18 @@ describe('ThemeControls', () => {
     expect(document.documentElement.getAttribute('data-theme')).toBe('pixel-arcade');
   });
 
+  it('keeps color mode controls interactive on specialty themes', async () => {
+    renderControls();
+    const user = userEvent.setup();
+
+    await user.click(screen.getByRole('button', { name: /cyberpunk neon theme/i }));
+    await user.click(screen.getByRole('button', { name: /dark mode/i }));
+    expect(document.documentElement.classList.contains('dark')).toBe(true);
+
+    await user.click(screen.getByRole('button', { name: /light mode/i }));
+    expect(document.documentElement.classList.contains('dark')).toBe(false);
+  });
+
   it('mode buttons belong to a labelled group', () => {
     renderControls();
     expect(screen.getByRole('group', { name: /color mode/i })).toBeInTheDocument();
