@@ -1,0 +1,42 @@
+/* ── Brutalist Blocks: Light variant ── */
+[data-theme="brutalist"] {
+  --canvas: #ffffff;
+  --surface: #f0f0f0;
+  --surface-hover: #e0e0e0;
+  --line: #808080;
+  --primary: #000000;
+  --secondary: #333333;
+  --muted: #666666;
+  --accent: #ff0000;
+  --accent-light: #ff3333;
+  --marked: #ffffcc;
+  --marked-border: #ffff00;
+  --marked-fg: #000000;
+  --winning: #ffcccc;
+  --winning-border: #ff0000;
+  --winning-fg: #000000;
+  --bingo: #ffcccc;
+  --bingo-fg: #000000;
+  --theme-font: "Arial", sans-serif;
+}
+
+/* ── Brutalist Blocks: Dark variant ── */
+.dark[data-theme="brutalist"] {
+  --canvas: #0a0a0a;
+  --surface: #1a1a1a;
+  --surface-hover: #2a2a2a;
+  --line: #404040;
+  --primary: #ffffff;
+  --secondary: #e0e0e0;
+  --muted: #808080;
+  --accent: #ff3333;
+  --accent-light: #ff6666;
+  --marked: #333300;
+  --marked-border: #ffff00;
+  --marked-fg: #ffff00;
+  --winning: #330000;
+  --winning-border: #ff6666;
+  --winning-fg: #ffaaaa;
+  --bingo: #330000;
+  --bingo-fg: #ffaaaa;
+}

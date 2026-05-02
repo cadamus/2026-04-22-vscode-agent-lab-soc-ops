@@ -1,0 +1,42 @@
+/* ── Bold Constructivist: Light variant ── */
+[data-theme="constructivist"] {
+  --canvas: #ffcccc;
+  --surface: #ffeeee;
+  --surface-hover: #ffdddd;
+  --line: #ff9999;
+  --primary: #330000;
+  --secondary: #660000;
+  --muted: #aa3333;
+  --accent: #ff0000;
+  --accent-light: #ff3333;
+  --marked: #ffffcc;
+  --marked-border: #ffff00;
+  --marked-fg: #333300;
+  --winning: #ccccff;
+  --winning-border: #0000ff;
+  --winning-fg: #000033;
+  --bingo: #ccccff;
+  --bingo-fg: #000033;
+  --theme-font: "Arial Black", sans-serif;
+}
+
+/* ── Bold Constructivist: Dark variant ── */
+.dark[data-theme="constructivist"] {
+  --canvas: #1a0000;
+  --surface: #330000;
+  --surface-hover: #4a0000;
+  --line: #660000;
+  --primary: #ffcccc;
+  --secondary: #ff9999;
+  --muted: #ff6666;
+  --accent: #ff0000;
+  --accent-light: #ff3333;
+  --marked: #003300;
+  --marked-border: #00ff00;
+  --marked-fg: #00ff00;
+  --winning: #000033;
+  --winning-border: #0000ff;
+  --winning-fg: #6666ff;
+  --bingo: #000033;
+  --bingo-fg: #6666ff;
+}

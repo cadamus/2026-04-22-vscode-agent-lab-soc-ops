@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import type { BingoSquareData } from '../types';
 import { BingoBoard } from './BingoBoard';
 import { ThemeControls } from './ThemeControls';
+import { ThemePanel } from './ThemePanel';
+import { useTheme } from '../hooks/useTheme';
 
 interface GameScreenProps {
   board: BingoSquareData[];
@@ -17,6 +20,9 @@ export function GameScreen({
   onSquareClick,
   onReset,
 }: GameScreenProps) {
+  const [themePanelOpen, setThemePanelOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
+
   return (
     <div className="flex flex-col min-h-full bg-canvas">
       {/* Header */}
@@ -28,7 +34,7 @@ export function GameScreen({
           ← Back
         </button>
         <h1 className="font-bold text-primary">Bingo Mixer</h1>
-        <ThemeControls />
+        <ThemeControls onOpenThemes={() => setThemePanelOpen(true)} />
       </header>
 
       {/* Instructions */}
@@ -51,6 +57,14 @@ export function GameScreen({
           onSquareClick={onSquareClick}
         />
       </div>
+
+      {/* Theme Panel */}
+      <ThemePanel
+        isOpen={themePanelOpen}
+        onClose={() => setThemePanelOpen(false)}
+        currentTheme={theme}
+        onSelectTheme={setTheme}
+      />
     </div>
   );
 }

@@ -1,0 +1,42 @@
+/* ── Corporate Clean Blue: Light variant ── */
+[data-theme="corporate-blue"] {
+  --canvas: #f8f9fb;
+  --surface: #ffffff;
+  --surface-hover: #f0f4f9;
+  --line: #d9e2f0;
+  --primary: #1a3a6b;
+  --secondary: #3a5a9a;
+  --muted: #6a7a9a;
+  --accent: #0052cc;
+  --accent-light: #0066ff;
+  --marked: #e6f2ff;
+  --marked-border: #0052cc;
+  --marked-fg: #003d99;
+  --winning: #fff4e6;
+  --winning-border: #ffb81a;
+  --winning-fg: #664d1a;
+  --bingo: #fff4e6;
+  --bingo-fg: #664d1a;
+  --theme-font: "Segoe UI", -apple-system, sans-serif;
+}
+
+/* ── Corporate Clean Blue: Dark variant ── */
+.dark[data-theme="corporate-blue"] {
+  --canvas: #0d1b2a;
+  --surface: #1a2a3a;
+  --surface-hover: #253a4a;
+  --line: #3a4a5a;
+  --primary: #e6f0ff;
+  --secondary: #b0d0ff;
+  --muted: #6a8aaa;
+  --accent: #3d9eff;
+  --accent-light: #66bbff;
+  --marked: #0a3a1a;
+  --marked-border: #3dff3d;
+  --marked-fg: #7dff7d;
+  --winning: #3a2a0a;
+  --winning-border: #ffcc00;
+  --winning-fg: #ffee88;
+  --bingo: #3a2a0a;
+  --bingo-fg: #ffee88;
+}

@@ -1,0 +1,42 @@
+/* ── Gradient Glass UI: Light variant ── */
+[data-theme="gradient-glass"] {
+  --canvas: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --surface: rgba(255, 255, 255, 0.7);
+  --surface-hover: rgba(255, 255, 255, 0.5);
+  --line: rgba(0, 0, 0, 0.1);
+  --primary: #2c3e50;
+  --secondary: #34495e;
+  --muted: #7f8c8d;
+  --accent: #3498db;
+  --accent-light: #5dade2;
+  --marked: #d5f4e6;
+  --marked-border: #27ae60;
+  --marked-fg: #186a3b;
+  --winning: #fff9e6;
+  --winning-border: #e67e22;
+  --winning-fg: #7d3c00;
+  --bingo: #fff9e6;
+  --bingo-fg: #7d3c00;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Gradient Glass UI: Dark variant ── */
+.dark[data-theme="gradient-glass"] {
+  --canvas: linear-gradient(135deg, #1a2332 0%, #16213e 100%);
+  --surface: rgba(255, 255, 255, 0.1);
+  --surface-hover: rgba(255, 255, 255, 0.15);
+  --line: rgba(255, 255, 255, 0.1);
+  --primary: #ecf0f1;
+  --secondary: #bdc3c7;
+  --muted: #95a5a6;
+  --accent: #3498db;
+  --accent-light: #5dade2;
+  --marked: #0d3d1d;
+  --marked-border: #27ae60;
+  --marked-fg: #7dff7d;
+  --winning: #3d2d0d;
+  --winning-border: #e67e22;
+  --winning-fg: #ffcc88;
+  --bingo: #3d2d0d;
+  --bingo-fg: #ffcc88;
+}

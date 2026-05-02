@@ -1,15 +1,21 @@
+import { useState } from 'react';
 import { ThemeControls } from "./ThemeControls";
+import { ThemePanel } from "./ThemePanel";
+import { useTheme } from '../hooks/useTheme';
 
 interface StartScreenProps {
   onStart: () => void;
 }
 
 export function StartScreen({ onStart }: StartScreenProps) {
+  const [themePanelOpen, setThemePanelOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
+
   return (
     <div className="relative flex flex-col items-center justify-center min-h-full p-6 bg-canvas">
       {/* Theme controls top-right */}
       <div className="absolute top-0 right-0 p-3">
-        <ThemeControls />
+        <ThemeControls onOpenThemes={() => setThemePanelOpen(true)} />
       </div>
 
       <div className="text-center max-w-sm">
@@ -30,6 +36,14 @@ export function StartScreen({ onStart }: StartScreenProps) {
           Start Game
         </button>
       </div>
+
+      {/* Theme Panel */}
+      <ThemePanel
+        isOpen={themePanelOpen}
+        onClose={() => setThemePanelOpen(false)}
+        currentTheme={theme}
+        onSelectTheme={setTheme}
+      />
     </div>
   );
 }

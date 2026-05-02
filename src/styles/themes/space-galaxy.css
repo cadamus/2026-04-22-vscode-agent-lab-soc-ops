@@ -1,0 +1,42 @@
+/* ── Space Galaxy Glow: Light variant ── */
+[data-theme="space-galaxy"] {
+  --canvas: #e6e6fa;
+  --surface: #f5f5ff;
+  --surface-hover: #ececff;
+  --line: #d9d9f0;
+  --primary: #3d2a5a;
+  --secondary: #6a4aaa;
+  --muted: #8a6acc;
+  --accent: #bb66ff;
+  --accent-light: #dd99ff;
+  --marked: #e8d9ff;
+  --marked-border: #aa66ff;
+  --marked-fg: #330066;
+  --winning: #fff8e6;
+  --winning-border: #ffcc33;
+  --winning-fg: #664400;
+  --bingo: #fff8e6;
+  --bingo-fg: #664400;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Space Galaxy Glow: Dark variant ── */
+.dark[data-theme="space-galaxy"] {
+  --canvas: #0a0a1a;
+  --surface: #1a1a3a;
+  --surface-hover: #2a2a4a;
+  --line: #3a3a6a;
+  --primary: #e8d9ff;
+  --secondary: #d0bbff;
+  --muted: #8a6acc;
+  --accent: #ff66ff;
+  --accent-light: #ff99ff;
+  --marked: #1a0a2a;
+  --marked-border: #66ff66;
+  --marked-fg: #99ff99;
+  --winning: #2a1a0a;
+  --winning-border: #ffff66;
+  --winning-fg: #ffff99;
+  --bingo: #2a1a0a;
+  --bingo-fg: #ffff99;
+}

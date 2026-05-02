@@ -1,0 +1,42 @@
+/* ── Skeuomorphic Stickers: Light variant ── */
+[data-theme="skeuomorphic"] {
+  --canvas: #fffaf0;
+  --surface: #fffef7;
+  --surface-hover: #fff5e6;
+  --line: #f0d9c0;
+  --primary: #3d2817;
+  --secondary: #8b6f47;
+  --muted: #a89968;
+  --accent: #ff6b9d;
+  --accent-light: #ff99b8;
+  --marked: #c8e6c9;
+  --marked-border: #81c784;
+  --marked-fg: #1b5e20;
+  --winning: #fff9c4;
+  --winning-border: #f9a825;
+  --winning-fg: #6d4c41;
+  --bingo: #fff9c4;
+  --bingo-fg: #6d4c41;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Skeuomorphic Stickers: Dark variant ── */
+.dark[data-theme="skeuomorphic"] {
+  --canvas: #1a0f08;
+  --surface: #2d1b10;
+  --surface-hover: #3d2b20;
+  --line: #4d3b30;
+  --primary: #f5e6d3;
+  --secondary: #d7bfa3;
+  --muted: #a8968d;
+  --accent: #ff88b0;
+  --accent-light: #ffacc4;
+  --marked: #1b5e20;
+  --marked-border: #81c784;
+  --marked-fg: #c8e6c9;
+  --winning: #6d4c41;
+  --winning-border: #ffb74d;
+  --winning-fg: #ffe0b2;
+  --bingo: #6d4c41;
+  --bingo-fg: #ffe0b2;
+}

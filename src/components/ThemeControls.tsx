@@ -1,5 +1,5 @@
 import { useTheme } from '../hooks/useTheme';
-import type { ColorMode, ThemeName } from '../types';
+import type { ColorMode } from '../types';
 
 // ── SVG Icons ────────────────────────────────────────────────────────────
 
@@ -29,6 +29,15 @@ function MonitorIcon() {
   );
 }
 
+function PaletteIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="13" cy="13" r="8" />
+      <path d="M5.64 5.64a8 8 0 0 0 0 11.31M13 21.01V3M21.01 13H3" />
+    </svg>
+  );
+}
+
 // ── Data ─────────────────────────────────────────────────────────────────
 
 const MODES: { value: ColorMode; label: string; icon: React.ReactNode }[] = [
@@ -37,19 +46,17 @@ const MODES: { value: ColorMode; label: string; icon: React.ReactNode }[] = [
   { value: 'system', label: 'System mode', icon: <MonitorIcon /> },
 ];
 
-const THEMES: { value: ThemeName; icon: string; label: string }[] = [
-  { value: 'default',      icon: '◉', label: 'Default theme' },
-  { value: 'cyberpunk',    icon: '⚡', label: 'Cyberpunk Neon theme' },
-  { value: 'pixel-arcade', icon: '🕹', label: 'Pixel Arcade theme' },
-];
-
 // ── Component ─────────────────────────────────────────────────────────────
 
-export function ThemeControls() {
-  const { colorMode, theme, setColorMode, setTheme } = useTheme();
+interface ThemeControlsProps {
+  onOpenThemes?: () => void;
+}
+
+export function ThemeControls({ onOpenThemes }: ThemeControlsProps) {
+  const { colorMode, setColorMode } = useTheme();
 
   return (
-    <div className="flex items-center gap-1.5" data-testid="theme-controls">
+    <div className="flex items-center gap-2" data-testid="theme-controls">
       {/* Light / Dark / System toggle */}
       <div
         role="group"
@@ -73,28 +80,16 @@ export function ThemeControls() {
         ))}
       </div>
 
-      {/* Theme selector */}
-      <div
-        role="group"
-        aria-label="Theme"
-        className="flex items-center rounded-full border border-line bg-canvas p-0.5"
-      >
-        {THEMES.map(({ value, icon, label }) => (
-          <button
-            key={value}
-            onClick={() => setTheme(value)}
-            aria-pressed={theme === value}
-            aria-label={label}
-            className={`flex items-center justify-center w-11 h-11 rounded-full text-xs transition-colors ${
-              theme === value
-                ? 'bg-accent text-white'
-                : 'text-muted hover:text-secondary'
-            }`}
-          >
-            {icon}
-          </button>
-        ))}
-      </div>
+      {/* Theme selector button */}
+      {onOpenThemes && (
+        <button
+          onClick={onOpenThemes}
+          aria-label="Open theme selector"
+          className="flex items-center justify-center w-11 h-11 rounded-full border border-line bg-canvas text-muted hover:text-secondary transition-colors active:bg-surface-hover"
+        >
+          <PaletteIcon />
+        </button>
+      )}
     </div>
   );
 }

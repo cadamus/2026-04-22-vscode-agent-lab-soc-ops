@@ -1,0 +1,42 @@
+/* ── Geometric Memphis: Light variant ── */
+[data-theme="geometric-memphis"] {
+  --canvas: #fdfaf3;
+  --surface: #fffef8;
+  --surface-hover: #f8f3eb;
+  --line: #ebe0d4;
+  --primary: #3a2a4a;
+  --secondary: #6a4a7a;
+  --muted: #9a7aaa;
+  --accent: #ff6b7a;
+  --accent-light: #ff99aa;
+  --marked: #d4f0c4;
+  --marked-border: #7acc59;
+  --marked-fg: #2a5a2a;
+  --winning: #fffacc;
+  --winning-border: #ffc947;
+  --winning-fg: #664400;
+  --bingo: #fffacc;
+  --bingo-fg: #664400;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Geometric Memphis: Dark variant ── */
+.dark[data-theme="geometric-memphis"] {
+  --canvas: #1a0f1a;
+  --surface: #2a1a2a;
+  --surface-hover: #3a2a3a;
+  --line: #4a3a4a;
+  --primary: #f5d9ff;
+  --secondary: #e8b8ff;
+  --muted: #c8a8dd;
+  --accent: #ff6b7a;
+  --accent-light: #ff99aa;
+  --marked: #1a4a1a;
+  --marked-border: #66ff66;
+  --marked-fg: #88ff88;
+  --winning: #4a3a0a;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff88;
+  --bingo: #4a3a0a;
+  --bingo-fg: #ffff88;
+}

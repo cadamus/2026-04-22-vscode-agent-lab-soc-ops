@@ -1,0 +1,42 @@
+/* ── Chalkboard Classroom: Light variant ── */
+[data-theme="chalkboard"] {
+  --canvas: #f0f0f0;
+  --surface: #f8f8f8;
+  --surface-hover: #e8e8e8;
+  --line: #cccccc;
+  --primary: #333333;
+  --secondary: #555555;
+  --muted: #777777;
+  --accent: #ff9933;
+  --accent-light: #ffbb66;
+  --marked: #ccffcc;
+  --marked-border: #66cc66;
+  --marked-fg: #006600;
+  --winning: #ffeeaa;
+  --winning-border: #ffcc00;
+  --winning-fg: #664400;
+  --bingo: #ffeeaa;
+  --bingo-fg: #664400;
+  --theme-font: "Chalkboard SE", cursive;
+}
+
+/* ── Chalkboard Classroom: Dark variant ── */
+.dark[data-theme="chalkboard"] {
+  --canvas: #1a1a0a;
+  --surface: #2a2a1a;
+  --surface-hover: #3a3a2a;
+  --line: #4a4a3a;
+  --primary: #ffff99;
+  --secondary: #ffff66;
+  --muted: #cccc66;
+  --accent: #ff9933;
+  --accent-light: #ffbb66;
+  --marked: #006600;
+  --marked-border: #00ff00;
+  --marked-fg: #88ff88;
+  --winning: #3a2a00;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff99;
+  --bingo: #3a2a00;
+  --bingo-fg: #ffff99;
+}

@@ -1,0 +1,42 @@
+/* ── Anime Bubble Aesthetic: Light variant ── */
+[data-theme="anime-bubble"] {
+  --canvas: #fff8f5;
+  --surface: #fffcfa;
+  --surface-hover: #fff0eb;
+  --line: #ffe0d5;
+  --primary: #d42a63;
+  --secondary: #e85d8a;
+  --muted: #f0a3b8;
+  --accent: #ff6ba6;
+  --accent-light: #ff99c4;
+  --marked: #e0f0ff;
+  --marked-border: #00ccff;
+  --marked-fg: #0066aa;
+  --winning: #fff8cc;
+  --winning-border: #ffcc00;
+  --winning-fg: #664d00;
+  --bingo: #fff8cc;
+  --bingo-fg: #664d00;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Anime Bubble Aesthetic: Dark variant ── */
+.dark[data-theme="anime-bubble"] {
+  --canvas: #1a0a15;
+  --surface: #2a1a25;
+  --surface-hover: #3a2a35;
+  --line: #4a3a45;
+  --primary: #ffb0d0;
+  --secondary: #ff99cc;
+  --muted: #ff6666;
+  --accent: #ff6ba6;
+  --accent-light: #ff99c4;
+  --marked: #003366;
+  --marked-border: #00ffff;
+  --marked-fg: #88ffff;
+  --winning: #3a2a0a;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff99;
+  --bingo: #3a2a0a;
+  --bingo-fg: #ffff99;
+}

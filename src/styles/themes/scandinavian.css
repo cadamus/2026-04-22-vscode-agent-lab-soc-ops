@@ -1,0 +1,42 @@
+/* ── Scandinavian Calm: Light variant ── */
+[data-theme="scandinavian"] {
+  --canvas: #fafaf8;
+  --surface: #fefdfb;
+  --surface-hover: #f5f3f0;
+  --line: #e8e6e1;
+  --primary: #3a3a38;
+  --secondary: #696966;
+  --muted: #989896;
+  --accent: #94b0da;
+  --accent-light: #b0c4e8;
+  --marked: #d6e8d6;
+  --marked-border: #94b894;
+  --marked-fg: #3a5a3a;
+  --winning: #f0e8d4;
+  --winning-border: #d0b894;
+  --winning-fg: #5a4a32;
+  --bingo: #f0e8d4;
+  --bingo-fg: #5a4a32;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Scandinavian Calm: Dark variant ── */
+.dark[data-theme="scandinavian"] {
+  --canvas: #272725;
+  --surface: #323030;
+  --surface-hover: #3d3b38;
+  --line: #4a4845;
+  --primary: #e8e6e1;
+  --secondary: #c4c2bd;
+  --muted: #8a8885;
+  --accent: #7a94b8;
+  --accent-light: #94afd0;
+  --marked: #3a4a3a;
+  --marked-border: #6a8a6a;
+  --marked-fg: #b0e0b0;
+  --winning: #4a3a28;
+  --winning-border: #a08060;
+  --winning-fg: #d8c8a8;
+  --bingo: #4a3a28;
+  --bingo-fg: #d8c8a8;
+}

@@ -1,0 +1,42 @@
+/* ── Desert Sand Minimal: Light variant ── */
+[data-theme="desert-sand"] {
+  --canvas: #f5f0eb;
+  --surface: #faf8f5;
+  --surface-hover: #f0e8e0;
+  --line: #e0d5c8;
+  --primary: #5a4a3a;
+  --secondary: #8a7060;
+  --muted: #a89878;
+  --accent: #c89050;
+  --accent-light: #d8a868;
+  --marked: #e8f0d8;
+  --marked-border: #a8b870;
+  --marked-fg: #4a5a2a;
+  --winning: #fff8e8;
+  --winning-border: #d4a574;
+  --winning-fg: #5a3a1a;
+  --bingo: #fff8e8;
+  --bingo-fg: #5a3a1a;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Desert Sand Minimal: Dark variant ── */
+.dark[data-theme="desert-sand"] {
+  --canvas: #1a1410;
+  --surface: #2a2018;
+  --surface-hover: #3a3020;
+  --line: #4a4028;
+  --primary: #f0e0cc;
+  --secondary: #d8c8a8;
+  --muted: #a8989a;
+  --accent: #d8a050;
+  --accent-light: #e8b868;
+  --marked: #1a3a1a;
+  --marked-border: #68a868;
+  --marked-fg: #98d898;
+  --winning: #3a2a0a;
+  --winning-border: #b8884a;
+  --winning-fg: #e8d0a8;
+  --bingo: #3a2a0a;
+  --bingo-fg: #e8d0a8;
+}

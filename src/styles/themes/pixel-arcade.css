@@ -1,0 +1,48 @@
+/* ── Pixel Arcade: Light variant ── */
+[data-theme="pixel-arcade"] {
+  --canvas: #fff7d6;
+  --surface: #fffef2;
+  --surface-hover: #fff1a6;
+  --line: #2636a6;
+  --primary: #1f2673;
+  --secondary: #574db8;
+  --muted: #7b72d3;
+  --accent: #e53935;
+  --accent-light: #ff6f61;
+  --marked: #dbffd6;
+  --marked-border: #11a83a;
+  --marked-fg: #106421;
+  --winning: #ffe2a8;
+  --winning-border: #ff8f00;
+  --winning-fg: #763a00;
+  --bingo: #ffe2a8;
+  --bingo-fg: #763a00;
+  --theme-font: "Press Start 2P", monospace;
+}
+
+/* ── Pixel Arcade: Dark variant ── */
+.dark[data-theme="pixel-arcade"] {
+  --canvas: #000080;
+  --surface: #0000aa;
+  --surface-hover: #0000cc;
+  --line: #ffff00;
+  --primary: #ffffff;
+  --secondary: #ffff88;
+  --muted: #aaaaff;
+  --accent: #ff4444;
+  --accent-light: #ff6666;
+  --marked: #005500;
+  --marked-border: #00ff00;
+  --marked-fg: #00ff00;
+  --winning: #550000;
+  --winning-border: #ff8800;
+  --winning-fg: #ffff00;
+  --bingo: #550000;
+  --bingo-fg: #ffff00;
+}
+
+@layer utilities {
+  [data-theme="pixel-arcade"] .pixel-border {
+    box-shadow: -2px 0 0 0 var(--line), 2px 0 0 0 var(--line), 0 -2px 0 0 var(--line), 0 2px 0 0 var(--line);
+  }
+}

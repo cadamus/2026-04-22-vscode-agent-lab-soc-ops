@@ -1,0 +1,42 @@
+/* ── Toybox Primary Colors: Light variant ── */
+[data-theme="toybox-primary"] {
+  --canvas: #fff5f0;
+  --surface: #fffbf8;
+  --surface-hover: #ffecde;
+  --line: #ffccbb;
+  --primary: #cc0000;
+  --secondary: #0066cc;
+  --muted: #669999;
+  --accent: #ffcc00;
+  --accent-light: #ffdd55;
+  --marked: #ccffcc;
+  --marked-border: #00cc00;
+  --marked-fg: #006600;
+  --winning: #ffff99;
+  --winning-border: #ffcc00;
+  --winning-fg: #664400;
+  --bingo: #ffff99;
+  --bingo-fg: #664400;
+  --theme-font: "Arial", sans-serif;
+}
+
+/* ── Toybox Primary Colors: Dark variant ── */
+.dark[data-theme="toybox-primary"] {
+  --canvas: #1a0000;
+  --surface: #330000;
+  --surface-hover: #4a0000;
+  --line: #660000;
+  --primary: #ffcccc;
+  --secondary: #99ddff;
+  --muted: #9999ff;
+  --accent: #ffff00;
+  --accent-light: #ffff66;
+  --marked: #006600;
+  --marked-border: #00ff00;
+  --marked-fg: #00ff00;
+  --winning: #003333;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff99;
+  --bingo: #003333;
+  --bingo-fg: #ffff99;
+}

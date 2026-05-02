@@ -1,0 +1,42 @@
+/* ── Monochrome Newspaper: Light variant ── */
+[data-theme="newspaper"] {
+  --canvas: #f5f3f0;
+  --surface: #fefdfb;
+  --surface-hover: #f0ede8;
+  --line: #d5cfc5;
+  --primary: #000000;
+  --secondary: #333333;
+  --muted: #666666;
+  --accent: #000000;
+  --accent-light: #1a1a1a;
+  --marked: #ffff99;
+  --marked-border: #000000;
+  --marked-fg: #000000;
+  --winning: #cccccc;
+  --winning-border: #000000;
+  --winning-fg: #000000;
+  --bingo: #cccccc;
+  --bingo-fg: #000000;
+  --theme-font: "Georgia", serif;
+}
+
+/* ── Monochrome Newspaper: Dark variant ── */
+.dark[data-theme="newspaper"] {
+  --canvas: #0a0a0a;
+  --surface: #1a1a1a;
+  --surface-hover: #2a2a2a;
+  --line: #3a3a3a;
+  --primary: #ffffff;
+  --secondary: #e0e0e0;
+  --muted: #999999;
+  --accent: #ffffff;
+  --accent-light: #f0f0f0;
+  --marked: #333300;
+  --marked-border: #ffff00;
+  --marked-fg: #ffff99;
+  --winning: #4a4a4a;
+  --winning-border: #ffffff;
+  --winning-fg: #ffffff;
+  --bingo: #4a4a4a;
+  --bingo-fg: #ffffff;
+}

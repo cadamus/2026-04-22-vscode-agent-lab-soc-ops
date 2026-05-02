@@ -1,0 +1,42 @@
+/* ── Playful Candy Pop: Light variant ── */
+[data-theme="candy-pop"] {
+  --canvas: #fff8e7;
+  --surface: #fffcf3;
+  --surface-hover: #ffe8cc;
+  --line: #ffccb3;
+  --primary: #cc3333;
+  --secondary: #ff6b6b;
+  --muted: #ff9999;
+  --accent: #ff33cc;
+  --accent-light: #ff66dd;
+  --marked: #ccffcc;
+  --marked-border: #33cc33;
+  --marked-fg: #003300;
+  --winning: #ffff99;
+  --winning-border: #ffcc00;
+  --winning-fg: #664d00;
+  --bingo: #ffff99;
+  --bingo-fg: #664d00;
+  --theme-font: "Comic Sans MS", cursive;
+}
+
+/* ── Playful Candy Pop: Dark variant ── */
+.dark[data-theme="candy-pop"] {
+  --canvas: #330011;
+  --surface: #660033;
+  --surface-hover: #990044;
+  --line: #cc3366;
+  --primary: #ffccff;
+  --secondary: #ff99ee;
+  --muted: #ff66dd;
+  --accent: #ff00ff;
+  --accent-light: #ff66ff;
+  --marked: #00cc00;
+  --marked-border: #00ff00;
+  --marked-fg: #00ff00;
+  --winning: #ffff00;
+  --winning-border: #ffff00;
+  --winning-fg: #000000;
+  --bingo: #ffff00;
+  --bingo-fg: #000000;
+}

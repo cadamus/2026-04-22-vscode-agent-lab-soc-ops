@@ -1,0 +1,21 @@
+/* ── Default theme: Light variant ── */
+:root {
+  --canvas: #f9fafb;
+  --surface: #ffffff;
+  --surface-hover: #f3f4f6;
+  --line: #e5e7eb;
+  --primary: #111827;
+  --secondary: #4b5563;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --marked: #dcfce7;
+  --marked-border: #22c55e;
+  --marked-fg: #166534;
+  --winning: #fef3c7;
+  --winning-border: #fbbf24;
+  --winning-fg: #92400e;
+  --bingo: #fef3c7;
+  --bingo-fg: #92400e;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}

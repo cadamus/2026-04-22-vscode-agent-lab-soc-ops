@@ -1,0 +1,42 @@
+/* ── Metallic Chrome UI: Light variant ── */
+[data-theme="metallic-chrome"] {
+  --canvas: #f0f2f5;
+  --surface: #fafbfc;
+  --surface-hover: #e8ebf0;
+  --line: #d5dce5;
+  --primary: #1a2a3a;
+  --secondary: #3a4a5a;
+  --muted: #7a8a9a;
+  --accent: #888888;
+  --accent-light: #aaaaaa;
+  --marked: #d9f0d9;
+  --marked-border: #88c888;
+  --marked-fg: #226622;
+  --winning: #ffeccc;
+  --winning-border: #e6a844;
+  --winning-fg: #663300;
+  --bingo: #ffeccc;
+  --bingo-fg: #663300;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Metallic Chrome UI: Dark variant ── */
+.dark[data-theme="metallic-chrome"] {
+  --canvas: #1a1a1a;
+  --surface: #262626;
+  --surface-hover: #323232;
+  --line: #3a3a3a;
+  --primary: #e0e0e0;
+  --secondary: #b0b0b0;
+  --muted: #707070;
+  --accent: #999999;
+  --accent-light: #bbbbbb;
+  --marked: #1a4a1a;
+  --marked-border: #66cc66;
+  --marked-fg: #99ff99;
+  --winning: #331a00;
+  --winning-border: #ccaa00;
+  --winning-fg: #ffdd99;
+  --bingo: #331a00;
+  --bingo-fg: #ffdd99;
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Press+Start+2P&display=swap");
+@import "tailwindcss";
+
+/* Tailwind v4 runtime token bridge:
+   @theme inline keeps variable references intact so :root / .dark /
+   [data-theme] overrides resolve at runtime, not build time. */
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-line: var(--line);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-marked: var(--marked);
+  --color-marked-border: var(--marked-border);
+  --color-marked-fg: var(--marked-fg);
+  --color-winning: var(--winning);
+  --color-winning-border: var(--winning-border);
+  --color-winning-fg: var(--winning-fg);
+  --color-bingo: var(--bingo);
+  --color-bingo-fg: var(--bingo-fg);
+}
+
+/* ── Base Themes ── */
+@import "./themes/default.css";
+@import "./themes/dark.css";
+
+/* ── Named Themes ── */
+@import "./themes/cyberpunk.css";
+@import "./themes/pixel-arcade.css";
+@import "./themes/minimalist-mono.css";
+@import "./themes/grotesque-grid.css";
+@import "./themes/retro-terminal.css";
+@import "./themes/vaporwave.css";
+@import "./themes/brutalist.css";
+@import "./themes/soft-pastel.css";
+@import "./themes/skeuomorphic.css";
+@import "./themes/noir.css";
+@import "./themes/candy-pop.css";
+@import "./themes/scandinavian.css";
+@import "./themes/corporate-blue.css";
+@import "./themes/gradient-glass.css";
+@import "./themes/notebook-sketch.css";
+@import "./themes/space-galaxy.css";
+@import "./themes/paper-cutouts.css";
+@import "./themes/geometric-memphis.css";
+@import "./themes/cozy-coffee.css";
+@import "./themes/metallic-chrome.css";
+@import "./themes/constructivist.css";
+@import "./themes/eco-leafy.css";
+@import "./themes/anime-bubble.css";
+@import "./themes/newspaper.css";
+@import "./themes/chalkboard.css";
+@import "./themes/yacht-nautical.css";
+@import "./themes/desert-sand.css";
+@import "./themes/serif-vintage.css";
+@import "./themes/toybox-primary.css";
+
+/* ── Global Styles ── */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--theme-font, system-ui, -apple-system, sans-serif);
+  -webkit-tap-highlight-color: transparent;
+}

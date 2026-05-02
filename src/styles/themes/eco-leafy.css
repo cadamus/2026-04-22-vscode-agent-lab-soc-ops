@@ -1,0 +1,42 @@
+/* ── Eco Leafy Green: Light variant ── */
+[data-theme="eco-leafy"] {
+  --canvas: #f0faf0;
+  --surface: #fdfefb;
+  --surface-hover: #f0f6ed;
+  --line: #d9e5d0;
+  --primary: #1a4a1a;
+  --secondary: #2a6a2a;
+  --muted: #5a8a5a;
+  --accent: #2ecc71;
+  --accent-light: #58d968;
+  --marked: #c8f4c8;
+  --marked-border: #27ae60;
+  --marked-fg: #0d5a0d;
+  --winning: #fef9e7;
+  --winning-border: #f1c40f;
+  --winning-fg: #664d00;
+  --bingo: #fef9e7;
+  --bingo-fg: #664d00;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Eco Leafy Green: Dark variant ── */
+.dark[data-theme="eco-leafy"] {
+  --canvas: #0d1f0d;
+  --surface: #1a2f1a;
+  --surface-hover: #1f3a1f;
+  --line: #2a4a2a;
+  --primary: #d8f0d8;
+  --secondary: #a8d8a8;
+  --muted: #6a8a6a;
+  --accent: #58ff58;
+  --accent-light: #88ff88;
+  --marked: #0a2a0a;
+  --marked-border: #00ff00;
+  --marked-fg: #88ff88;
+  --winning: #2a1f0a;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff88;
+  --bingo: #2a1f0a;
+  --bingo-fg: #ffff88;
+}

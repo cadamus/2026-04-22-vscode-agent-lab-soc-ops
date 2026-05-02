@@ -1,0 +1,42 @@
+/* ── Vaporwave Sunset: Light variant ── */
+[data-theme="vaporwave"] {
+  --canvas: #fff5fb;
+  --surface: #fffbfe;
+  --surface-hover: #ffe6f7;
+  --line: #f5cceb;
+  --primary: #6b1b6b;
+  --secondary: #b24bba;
+  --muted: #d999d9;
+  --accent: #ff6ec7;
+  --accent-light: #ff99dd;
+  --marked: #e0ccff;
+  --marked-border: #9933ff;
+  --marked-fg: #440088;
+  --winning: #ffffcc;
+  --winning-border: #ffcc00;
+  --winning-fg: #664d00;
+  --bingo: #ffffcc;
+  --bingo-fg: #664d00;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Vaporwave Sunset: Dark variant ── */
+.dark[data-theme="vaporwave"] {
+  --canvas: #1a0033;
+  --surface: #330066;
+  --surface-hover: #4d0099;
+  --line: #6600cc;
+  --primary: #ffccff;
+  --secondary: #ff99ff;
+  --muted: #cc66ff;
+  --accent: #ff00cc;
+  --accent-light: #ff66dd;
+  --marked: #330033;
+  --marked-border: #ff00ff;
+  --marked-fg: #ff99ff;
+  --winning: #333300;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff99;
+  --bingo: #333300;
+  --bingo-fg: #ffff99;
+}

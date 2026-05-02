@@ -1,0 +1,42 @@
+/* ── Notebook Doodle Sketch: Light variant ── */
+[data-theme="notebook-sketch"] {
+  --canvas: #fffef0;
+  --surface: #fffdf8;
+  --surface-hover: #f9f7e6;
+  --line: #e8e0cc;
+  --primary: #5a4a3a;
+  --secondary: #8a7a6a;
+  --muted: #a8a08a;
+  --accent: #d8666b;
+  --accent-light: #e8999e;
+  --marked: #e8f0d8;
+  --marked-border: #b8d877;
+  --marked-fg: #4a6a2a;
+  --winning: #f8f0d8;
+  --winning-border: #e8b850;
+  --winning-fg: #6a5a32;
+  --bingo: #f8f0d8;
+  --bingo-fg: #6a5a32;
+  --theme-font: "Caveat", cursive;
+}
+
+/* ── Notebook Doodle Sketch: Dark variant ── */
+.dark[data-theme="notebook-sketch"] {
+  --canvas: #2a231a;
+  --surface: #3a322a;
+  --surface-hover: #4a3a32;
+  --line: #5a4a42;
+  --primary: #f5e8d8;
+  --secondary: #d8c8b8;
+  --muted: #a8989a;
+  --accent: #e8a8aa;
+  --accent-light: #f0c8cc;
+  --marked: #2a4a2a;
+  --marked-border: #88d888;
+  --marked-fg: #c8f0c8;
+  --winning: #4a3a22;
+  --winning-border: #d8a850;
+  --winning-fg: #f0d8a8;
+  --bingo: #4a3a22;
+  --bingo-fg: #f0d8a8;
+}

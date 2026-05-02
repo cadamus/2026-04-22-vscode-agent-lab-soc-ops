@@ -1,0 +1,42 @@
+/* ── Soft Pastel Clouds: Light variant ── */
+[data-theme="soft-pastel"] {
+  --canvas: #fef9f3;
+  --surface: #fffcf9;
+  --surface-hover: #f9f1e8;
+  --line: #e8d5c4;
+  --primary: #4a3728;
+  --secondary: #7a6b5d;
+  --muted: #a8957f;
+  --accent: #d4a5a5;
+  --accent-light: #e8c4c4;
+  --marked: #e8f5e8;
+  --marked-border: #b8d4b8;
+  --marked-fg: #5a8a5a;
+  --winning: #fff8e8;
+  --winning-border: #e8c4a0;
+  --winning-fg: #8a6b3a;
+  --bingo: #fff8e8;
+  --bingo-fg: #8a6b3a;
+  --theme-font: "Trebuchet MS", sans-serif;
+}
+
+/* ── Soft Pastel Clouds: Dark variant ── */
+.dark[data-theme="soft-pastel"] {
+  --canvas: #2a1f1a;
+  --surface: #3a2f2a;
+  --surface-hover: #4a3f3a;
+  --line: #5a4f4a;
+  --primary: #f5e8d8;
+  --secondary: #d8c4b0;
+  --muted: #a89880;
+  --accent: #e8b0b0;
+  --accent-light: #f0c8c8;
+  --marked: #2a3a2a;
+  --marked-border: #80c880;
+  --marked-fg: #b0e8b0;
+  --winning: #3a3020;
+  --winning-border: #d8b088;
+  --winning-fg: #f0d4a8;
+  --bingo: #3a3020;
+  --bingo-fg: #f0d4a8;
+}

@@ -1,0 +1,42 @@
+/* ── Yacht Club Nautical: Light variant ── */
+[data-theme="yacht-nautical"] {
+  --canvas: #f0f4f8;
+  --surface: #fafbfc;
+  --surface-hover: #f0f2f5;
+  --line: #d4dce5;
+  --primary: #003d66;
+  --secondary: #004d7a;
+  --muted: #6b7d8a;
+  --accent: #0066cc;
+  --accent-light: #3385d6;
+  --marked: #d9e6f2;
+  --marked-border: #0066cc;
+  --marked-fg: #003d66;
+  --winning: #fff9e6;
+  --winning-border: #cc6600;
+  --winning-fg: #664400;
+  --bingo: #fff9e6;
+  --bingo-fg: #664400;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Yacht Club Nautical: Dark variant ── */
+.dark[data-theme="yacht-nautical"] {
+  --canvas: #0a1a2a;
+  --surface: #1a2a3a;
+  --surface-hover: #2a3a4a;
+  --line: #3a4a5a;
+  --primary: #d0e6ff;
+  --secondary: #a0c6ff;
+  --muted: #6a8aaa;
+  --accent: #3d9eff;
+  --accent-light: #66bbff;
+  --marked: #0a3a0a;
+  --marked-border: #00ff00;
+  --marked-fg: #66ff66;
+  --winning: #2a1a0a;
+  --winning-border: #ffaa00;
+  --winning-fg: #ffdd88;
+  --bingo: #2a1a0a;
+  --bingo-fg: #ffdd88;
+}

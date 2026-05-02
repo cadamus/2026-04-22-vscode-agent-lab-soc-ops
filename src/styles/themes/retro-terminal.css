@@ -1,0 +1,42 @@
+/* ── Retro Terminal Green: Light variant ── */
+[data-theme="retro-terminal"] {
+  --canvas: #f0f0f0;
+  --surface: #ffffff;
+  --surface-hover: #e8e8e8;
+  --line: #cccccc;
+  --primary: #004d00;
+  --secondary: #006600;
+  --muted: #339933;
+  --accent: #00cc00;
+  --accent-light: #33ff33;
+  --marked: #e0ffe0;
+  --marked-border: #00cc00;
+  --marked-fg: #004d00;
+  --winning: #ffffcc;
+  --winning-border: #ffcc00;
+  --winning-fg: #664d00;
+  --bingo: #ffffcc;
+  --bingo-fg: #664d00;
+  --theme-font: "Courier New", monospace;
+}
+
+/* ── Retro Terminal Green: Dark variant ── */
+.dark[data-theme="retro-terminal"] {
+  --canvas: #001a00;
+  --surface: #003300;
+  --surface-hover: #004d00;
+  --line: #006600;
+  --primary: #00ff00;
+  --secondary: #66ff66;
+  --muted: #33cc33;
+  --accent: #00ff00;
+  --accent-light: #66ff66;
+  --marked: #003300;
+  --marked-border: #00ff00;
+  --marked-fg: #00ff00;
+  --winning: #1a1a00;
+  --winning-border: #ffff00;
+  --winning-fg: #ffff00;
+  --bingo: #1a1a00;
+  --bingo-fg: #ffff00;
+}

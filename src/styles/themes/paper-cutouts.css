@@ -1,0 +1,42 @@
+/* ── Paper Card Cutouts: Light variant ── */
+[data-theme="paper-cutouts"] {
+  --canvas: #f9f6f1;
+  --surface: #fffbf6;
+  --surface-hover: #f5ede3;
+  --line: #e0d5c8;
+  --primary: #4a3a2a;
+  --secondary: #7a6050;
+  --muted: #a89878;
+  --accent: #d89968;
+  --accent-light: #e8b088;
+  --marked: #e0f0e0;
+  --marked-border: #a0c8a0;
+  --marked-fg: #3a6a3a;
+  --winning: #fff0e0;
+  --winning-border: #e0a868;
+  --winning-fg: #664a28;
+  --bingo: #fff0e0;
+  --bingo-fg: #664a28;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}
+
+/* ── Paper Card Cutouts: Dark variant ── */
+.dark[data-theme="paper-cutouts"] {
+  --canvas: #1a1410;
+  --surface: #2a211a;
+  --surface-hover: #3a302a;
+  --line: #4a4038;
+  --primary: #f0e8d8;
+  --secondary: #d8c8b0;
+  --muted: #a8988a;
+  --accent: #e8a878;
+  --accent-light: #f0c098;
+  --marked: #1a3a1a;
+  --marked-border: #68a868;
+  --marked-fg: #a8e8a8;
+  --winning: #3a2a10;
+  --winning-border: #d8a858;
+  --winning-fg: #f0d8a8;
+  --bingo: #3a2a10;
+  --bingo-fg: #f0d8a8;
+}

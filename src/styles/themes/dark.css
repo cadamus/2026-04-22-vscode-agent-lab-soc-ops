@@ -1,0 +1,21 @@
+/* ── Default theme: Dark variant ── */
+.dark {
+  --canvas: #0f172a;
+  --surface: #1e293b;
+  --surface-hover: #334155;
+  --line: #334155;
+  --primary: #f1f5f9;
+  --secondary: #94a3b8;
+  --muted: #64748b;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+  --marked: #14532d;
+  --marked-border: #16a34a;
+  --marked-fg: #bbf7d0;
+  --winning: #451a03;
+  --winning-border: #d97706;
+  --winning-fg: #fef3c7;
+  --bingo: #451a03;
+  --bingo-fg: #fef3c7;
+  --theme-font: system-ui, -apple-system, sans-serif;
+}

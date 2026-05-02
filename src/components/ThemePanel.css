@@ -1,0 +1,42 @@
+/* Theme Panel Animations */
+
+@layer components {
+  /* Smooth slide-in animation from right */
+  .theme-panel-enter {
+    animation: slideInRight 0.3s ease-out;
+  }
+
+  .theme-panel-exit {
+    animation: slideOutRight 0.3s ease-out;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  /* On mobile, panel takes full width */
+  .theme-panel {
+    width: 100%;
+  }
+}

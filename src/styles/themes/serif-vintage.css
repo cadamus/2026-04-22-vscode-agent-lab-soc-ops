@@ -1,0 +1,42 @@
+/* ── Bold Serif Vintage: Light variant ── */
+[data-theme="serif-vintage"] {
+  --canvas: #f8f4f0;
+  --surface: #fdfbf7;
+  --surface-hover: #f5f0e8;
+  --line: #e0d5c8;
+  --primary: #3a2a1a;
+  --secondary: #6a5040;
+  --muted: #8a7060;
+  --accent: #a8704a;
+  --accent-light: #c89060;
+  --marked: #e8e8d0;
+  --marked-border: #b0a080;
+  --marked-fg: #4a4030;
+  --winning: #fff0d8;
+  --winning-border: #d4a56b;
+  --winning-fg: #5a4020;
+  --bingo: #fff0d8;
+  --bingo-fg: #5a4020;
+  --theme-font: "Garamond", serif;
+}
+
+/* ── Bold Serif Vintage: Dark variant ── */
+.dark[data-theme="serif-vintage"] {
+  --canvas: #1a140a;
+  --surface: #2a1f14;
+  --surface-hover: #3a2f24;
+  --line: #4a3f34;
+  --primary: #f0e0cc;
+  --secondary: #d8c8b0;
+  --muted: #a8988a;
+  --accent: #d8a464;
+  --accent-light: #e8b878;
+  --marked: #1a3a1a;
+  --marked-border: #5aaa5a;
+  --marked-fg: #88d888;
+  --winning: #3a2a10;
+  --winning-border: #c8944a;
+  --winning-fg: #e8d0a0;
+  --bingo: #3a2a10;
+  --bingo-fg: #e8d0a0;
+}

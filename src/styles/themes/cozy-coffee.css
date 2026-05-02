@@ -1,0 +1,42 @@
+/* ── Cozy Coffee Shop: Light variant ── */
+[data-theme="cozy-coffee"] {
+  --canvas: #f5ede5;
+  --surface: #faf7f2;
+  --surface-hover: #f0e5d8;
+  --line: #e0d0c0;
+  --primary: #5a3a28;
+  --secondary: #8a5a3a;
+  --muted: #a87a58;
+  --accent: #c8743a;
+  --accent-light: #d8956a;
+  --marked: #e8f4d8;
+  --marked-border: #a8d878;
+  --marked-fg: #3a5a2a;
+  --winning: #fff0d8;
+  --winning-border: #e8a840;
+  --winning-fg: #664a20;
+  --bingo: #fff0d8;
+  --bingo-fg: #664a20;
+  --theme-font: "Georgia", serif;
+}
+
+/* ── Cozy Coffee Shop: Dark variant ── */
+.dark[data-theme="cozy-coffee"] {
+  --canvas: #2a1810;
+  --surface: #3a2818;
+  --surface-hover: #4a3820;
+  --line: #5a4828;
+  --primary: #f0d8c8;
+  --secondary: #d8b8a0;
+  --muted: #b89878;
+  --accent: #e89850;
+  --accent-light: #f0b070;
+  --marked: #1a3a1a;
+  --marked-border: #70b870;
+  --marked-fg: #a8d8a8;
+  --winning: #3a2a0a;
+  --winning-border: #d8a840;
+  --winning-fg: #f0d0a0;
+  --bingo: #3a2a0a;
+  --bingo-fg: #f0d0a0;
+}
